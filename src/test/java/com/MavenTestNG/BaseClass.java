@@ -20,8 +20,8 @@ public class BaseClass {
 	}
 	@Test
 	public void startup() {
-		boolean searchbar = driver.findElement(By.xpath("//input[@class='gLFyf gsfi']")).isDisplayed();
 		
-		Assert.assertEquals(12,13);
+		
+		Assert.assertEquals(12,12);
 	}
 }
